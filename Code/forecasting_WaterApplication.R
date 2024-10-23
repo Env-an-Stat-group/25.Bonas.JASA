@@ -21,8 +21,8 @@ library(foreach)
 library(doSNOW)
 
 #load functions
-source('Code/data_processing.R')
-source('Code/deep_functions_physics_WaterApplication.R')
+source('data_processing.R')
+source('deep_functions_physics_WaterApplication.R')
 
 #specify cores
 options(cores = 10)
@@ -40,13 +40,6 @@ ns_equation = function(u_bar, yvals, nu, u_tau, delta, kappa = 0.15)
   
   return(output)
 }
-
-
-#Load Data - needs to be obtain from private database via request
-# load('Data/WaterField_U_Subsample_Agg.RData')
-# load('Data/WaterField_Coords_Subsample.RData')
-# rawData = (U_samp_agg)
-# yvals = coords_samp[,2]
 
 
 

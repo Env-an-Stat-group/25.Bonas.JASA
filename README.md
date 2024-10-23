@@ -1,4 +1,4 @@
-# 23.Bonas.unpublished
+# 25.Bonas.JASA
 Supplemental codes for "A Physics-Informed, Deep Double Reservoir Network for Forecasting Boundary Layer Wind" by Matthew Bonas, David H. Richter and Stefano Castruccio
 
 ## Data
